@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RepMate — Support</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --yellow: #F5FF4B;
+    --dark: #0a0a0a;
+    --card: #111111;
+    --border: #1f1f1f;
+    --text: #c8c8c8;
+    --white: #ffffff;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--dark);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 32px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(245,255,75,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    color: var(--white);
+    letter-spacing: 3px;
+  }
+
+  .logo span { color: var(--yellow); }
+
+  .tagline {
+    font-size: 13px;
+    color: #555;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 60px 24px 100px;
+  }
+
+  .page-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 56px;
+    color: var(--white);
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  section { margin-bottom: 56px; }
+
+  h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: var(--yellow);
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+
+  p { margin-bottom: 16px; color: var(--text); }
+
+  .faq-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 12px;
+  }
+
+  .faq-item h3 {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: 0.2px;
+  }
+
+  .faq-item p { margin: 0; font-size: 15px; }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 8px;
+  }
+
+  @media (max-width: 540px) {
+    .contact-grid { grid-template-columns: 1fr; }
+  }
+
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px;
+    text-align: center;
+  }
+
+  .contact-card .icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .contact-card h3 {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  .contact-card a {
+    color: var(--yellow);
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .contact-card p {
+    font-size: 13px;
+    color: #555;
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+
+  .highlight-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--yellow);
+    border-radius: 0 12px 12px 0;
+    padding: 24px 28px;
+    margin-bottom: 16px;
+  }
+
+  .highlight-box strong { color: var(--white); }
+
+  ul {
+    list-style: none;
+    margin-bottom: 16px;
+  }
+
+  ul li {
+    padding: 10px 0;
+    padding-left: 20px;
+    position: relative;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+    font-size: 15px;
+  }
+
+  ul li:last-child { border-bottom: none; }
+
+  ul li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--yellow);
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px 24px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: #333;
+  }
+
+  footer span { color: var(--yellow); }
+  footer a { color: #555; text-decoration: none; }
+  footer a:hover { color: var(--yellow); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Rep<span>Mate</span></div>
+  <div class="tagline">AI Fitness Coach</div>
+</header>
+
+<div class="container">
+
+  <div class="page-title">Support</div>
+  <div class="subtitle">We got you. Always.</div>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Have a question, found a bug, or want to share feedback? Reach out — we respond within 24 hours.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="icon">✉️</div>
+        <h3>Email Support</h3>
+        <a href="mailto:support@repmate.app">support@repmate.app</a>
+        <p>Response within 24 hours</p>
+      </div>
+      <div class="contact-card">
+        <div class="icon">🐛</div>
+        <h3>Report a Bug</h3>
+        <a href="mailto:bugs@repmate.app">bugs@repmate.app</a>
+        <p>Help us improve RepMate</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>How does AI form detection work?</h3>
+      <p>RepMate uses your device camera and Apple's Vision framework to detect your body's key joints in real-time. All processing happens on your device — your camera feed is never sent to our servers.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>My camera isn't detecting my pose. What should I do?</h3>
+      <p>Make sure you're in a well-lit area and your full body is visible in the camera frame. Wear form-fitting clothing for best results. Try moving further back from the camera so your entire body fits in frame.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I restore my purchase?</h3>
+      <p>Go to Settings → Subscription → Restore Purchases. Make sure you're signed in with the same Apple ID used for the original purchase.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I cancel my subscription?</h3>
+      <p>Open the Settings app on your iPhone → tap your name → Subscriptions → RepMate → Cancel Subscription. Your access will continue until the end of the billing period.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>My workout data disappeared. How do I recover it?</h3>
+      <p>If you're signed in to your account, your data is synced to the cloud and can be restored by logging in again. If you used the app anonymously, data is stored locally — make sure you haven't deleted and reinstalled the app.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I switch coaches?</h3>
+      <p>Go to the Profile tab → Coach Selection → choose between Mate, Roaster, or Komutan. You can switch coaches anytime without losing your workout data.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is RepMate available on Android?</h3>
+      <p>RepMate is currently available on iOS only. Android support is on our roadmap — stay tuned for updates.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I delete my account and data?</h3>
+      <p>Go to Profile → Settings → Delete Account. This will permanently remove your account and all associated data from our servers. This action cannot be undone.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Subscription & Billing</h2>
+    <div class="highlight-box">
+      <p><strong>All billing is handled by Apple.</strong> RepMate does not store your payment information. For refund requests, billing issues, or subscription management, please contact Apple Support directly at <a href="https://reportaproblem.apple.com" style="color: var(--yellow);">reportaproblem.apple.com</a></p>
+    </div>
+    <ul>
+      <li>Weekly, monthly, and lifetime plans available</li>
+      <li>Subscriptions auto-renew unless cancelled 24 hours before renewal</li>
+      <li>Lifetime purchase is a one-time payment with no recurring charges</li>
+      <li>Free features remain available after subscription ends</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Device Requirements</h2>
+    <ul>
+      <li>iOS 16.0 or later</li>
+      <li>iPhone with A12 Bionic chip or later (for Neural Engine support)</li>
+      <li>Camera access required for pose detection</li>
+      <li>Microphone access required for voice coaching</li>
+    </ul>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 <span>RepMate</span>. All rights reserved. &nbsp;·&nbsp; <a href="repmate-privacy-policy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>

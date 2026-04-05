@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RepMate — Terms of Service</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --yellow: #F5FF4B;
+    --dark: #0a0a0a;
+    --card: #111111;
+    --border: #1f1f1f;
+    --text: #c8c8c8;
+    --white: #ffffff;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--dark);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 32px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(245,255,75,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    color: var(--white);
+    letter-spacing: 3px;
+  }
+
+  .logo span { color: var(--yellow); }
+
+  .tagline {
+    font-size: 13px;
+    color: #555;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 60px 24px 100px;
+  }
+
+  .page-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 56px;
+    color: var(--white);
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  .last-updated {
+    font-size: 13px;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  section { margin-bottom: 48px; }
+
+  h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: var(--yellow);
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+  }
+
+  p { margin-bottom: 16px; color: var(--text); }
+
+  ul {
+    list-style: none;
+    margin-bottom: 16px;
+  }
+
+  ul li {
+    padding: 10px 0;
+    padding-left: 20px;
+    position: relative;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+    font-size: 15px;
+  }
+
+  ul li:last-child { border-bottom: none; }
+
+  ul li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--yellow);
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 12px;
+  }
+
+  .card h3 {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: 0.2px;
+  }
+
+  .card p { margin: 0; font-size: 15px; }
+
+  .warning-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--yellow);
+    border-radius: 0 12px 12px 0;
+    padding: 24px 28px;
+    margin-bottom: 16px;
+  }
+
+  .warning-box strong { color: var(--white); }
+
+  .contact-block {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--yellow);
+    border-radius: 0 12px 12px 0;
+    padding: 28px;
+    margin-top: 16px;
+  }
+
+  .contact-block a {
+    color: var(--yellow);
+    text-decoration: none;
+  }
+
+  footer {
+    text-align: center;
+    padding: 40px 24px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: #333;
+  }
+
+  footer span { color: var(--yellow); }
+  footer a { color: #555; text-decoration: none; }
+  footer a:hover { color: var(--yellow); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Rep<span>Mate</span></div>
+  <div class="tagline">AI Fitness Coach</div>
+</header>
+
+<div class="container">
+
+  <div class="page-title">Terms of Service</div>
+  <div class="last-updated">Last updated: April 5, 2026</div>
+
+  <section>
+    <p>Welcome to RepMate. By downloading or using the RepMate application ("App"), you agree to be bound by these Terms of Service ("Terms"). Please read them carefully before using the App.</p>
+    <p>If you do not agree to these Terms, do not download or use RepMate.</p>
+  </section>
+
+  <section>
+    <h2>1. Acceptance of Terms</h2>
+    <p>By accessing or using RepMate, you confirm that you are at least 13 years of age, and that you agree to these Terms and our Privacy Policy. If you are under 18, you confirm that you have parental or guardian consent to use the App.</p>
+  </section>
+
+  <section>
+    <h2>2. Description of Service</h2>
+    <p>RepMate is an AI-powered fitness coaching application that uses your device camera to perform real-time pose detection and form analysis. The App provides:</p>
+    <ul>
+      <li>Real-time AI form analysis and feedback via camera</li>
+      <li>Rep and set tracking for various exercises</li>
+      <li>Personalized coaching through AI coach personas</li>
+      <li>Voice feedback powered by AI speech synthesis</li>
+      <li>Workout history and progress tracking</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Health & Safety Disclaimer</h2>
+    <div class="warning-box">
+      <p><strong>Important:</strong> RepMate is not a medical service and does not provide medical advice. Always consult a qualified healthcare professional before starting any new exercise program.</p>
+    </div>
+    <p>By using RepMate, you acknowledge and agree that:</p>
+    <ul>
+      <li>Exercise involves inherent risk of injury — use the App at your own risk</li>
+      <li>RepMate's AI form analysis is an aid, not a replacement for professional coaching</li>
+      <li>You are solely responsible for your physical safety during workouts</li>
+      <li>RepMate is not liable for any injury, loss, or damage resulting from use of the App</li>
+      <li>You will stop exercising immediately if you feel pain or discomfort</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. User Accounts</h2>
+    <div class="card">
+      <h3>Anonymous Use</h3>
+      <p>RepMate can be used without creating an account. In this case, your data is stored locally on your device only.</p>
+    </div>
+    <div class="card">
+      <h3>Registered Accounts</h3>
+      <p>If you create an account, you are responsible for maintaining the security of your credentials and for all activity that occurs under your account.</p>
+    </div>
+    <div class="card">
+      <h3>Account Termination</h3>
+      <p>We reserve the right to suspend or terminate accounts that violate these Terms or engage in fraudulent or abusive behavior.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Subscriptions & Payments</h2>
+    <p>RepMate offers the following purchase options:</p>
+    <ul>
+      <li>Weekly subscription — auto-renews every week</li>
+      <li>Monthly subscription — auto-renews every month</li>
+      <li>Lifetime — one-time purchase, no recurring charges</li>
+    </ul>
+    <p>All payments are processed by Apple through the App Store. By making a purchase, you also agree to Apple's Terms of Service. Subscriptions automatically renew unless cancelled at least 24 hours before the renewal date.</p>
+    <p>To cancel your subscription, go to your iPhone Settings → Apple ID → Subscriptions → RepMate → Cancel Subscription. For refund requests, please contact Apple at <a href="https://reportaproblem.apple.com" style="color: var(--yellow);">reportaproblem.apple.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>6. Camera & Permissions</h2>
+    <p>RepMate requires access to your device camera to perform pose detection. By granting camera access, you acknowledge that:</p>
+    <ul>
+      <li>Camera data is processed entirely on-device in real-time</li>
+      <li>Your camera feed is never recorded, stored, or transmitted to our servers</li>
+      <li>You may revoke camera access at any time via iPhone Settings — this will disable pose detection features</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Intellectual Property</h2>
+    <p>All content within RepMate — including but not limited to the app design, AI coach personas, graphics, logos, and software — is the exclusive property of RepMate and is protected by applicable intellectual property laws.</p>
+    <p>You may not copy, modify, distribute, sell, or reverse engineer any part of the App without our prior written consent.</p>
+  </section>
+
+  <section>
+    <h2>8. Prohibited Conduct</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Use the App for any unlawful or fraudulent purpose</li>
+      <li>Attempt to reverse engineer or tamper with the App</li>
+      <li>Use automated tools to access or scrape the App</li>
+      <li>Interfere with the App's normal operation or servers</li>
+      <li>Impersonate another person or entity</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>9. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, RepMate and its developers shall not be liable for any indirect, incidental, special, consequential, or punitive damages — including physical injury, loss of data, or loss of revenue — arising from your use of the App.</p>
+    <p>RepMate is provided "as is" without warranties of any kind, either express or implied.</p>
+  </section>
+
+  <section>
+    <h2>10. Changes to Terms</h2>
+    <p>We may update these Terms from time to time. We will notify you of significant changes by updating the date at the top of this page. Continued use of RepMate after changes constitutes your acceptance of the updated Terms.</p>
+  </section>
+
+  <section>
+    <h2>11. Governing Law</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of the Republic of Turkey, without regard to its conflict of law provisions.</p>
+  </section>
+
+  <section>
+    <h2>12. Contact</h2>
+    <p>If you have any questions about these Terms, please contact us:</p>
+    <div class="contact-block">
+      <p><strong style="color: #fff;">RepMate Support</strong><br>
+      Email: <a href="mailto:legal@repmate.app">legal@repmate.app</a></p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 <span>RepMate</span>. All rights reserved. &nbsp;·&nbsp; <a href="index.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="support.html">Support</a></p>
+</footer>
+
+</body>
+</html>
